@@ -1,15 +1,16 @@
-# H1
-# digital-electronics-1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+# Alt-digital-electronics-1
+========================
+J'ai crée mon environnement Github afin de stocker mes sessions de labs; Les deux commandes les plus importantes sont :
+  *git clone https://github.com/Romain-Fresneau/digital-electronics-1.git dans l'environnement Git du PC pour cloner mon Github
+  * - $ git status
+    - $ git add -A
+    - $ git status
+    - $ git commit -m "[LAB] Creating 01-gates lab"
+    - $ git status
+    - $ git push
+    - $ git status
 
-Alternatively, for H1 and H2, an underline-ish style:
+Premierement nous devons simuler nos systemes sur EDA playground avant d utiliser le hardware, Le deuxieme exercice que nous faisons est d'utiliser la fonction de De Morgan afin de simuler.
 
-Alt-H1
-======
 
-Alt-H2
-------
+
