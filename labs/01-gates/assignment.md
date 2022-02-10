@@ -1,4 +1,4 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: ROMAIN-FRESNEAU
 
 ### De Morgan's laws
 
