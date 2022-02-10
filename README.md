@@ -1,5 +1,5 @@
 # digital-electronics-1
-
+## Lab 1 : Fist use of Git and EDA Playground
 J'ai crée mon environnement Github afin de stocker mes sessions de labs; Les deux commandes les plus importantes sont :
   * git clone https://github.com/Romain-Fresneau/digital-electronics-1.git dans l'environnement Git du PC pour cloner mon Github
   * - $ git status
