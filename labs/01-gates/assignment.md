@@ -34,6 +34,7 @@ end architecture dataflow;
 ### Distributive laws
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+   With these equations, we are trying to see if distributive laws are right, so that, we obtain this table, we can see both are the same.
 
    ![your figure](equtions.png)
 
