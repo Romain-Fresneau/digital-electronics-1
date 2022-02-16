@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/equations.png)
+   ![Logic function](images/equtions.png)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -12,8 +12,8 @@
 architecture dataflow of demorgan is
 begin
     f_o  <= (not b_i and  a_i) or (not c_i and  not b_i);
-    fnand_o <= '1';
-    fnor_o <= '0';
+    fnand_o <= not((not(not b_i and  a_i)) and (not(not c_i and  not b_i)));
+    fnor_o <= not((not(not c_i or  a_i)) or (not b_i)) ;
 end architecture dataflow;
 ```
 
@@ -21,14 +21,14 @@ end architecture dataflow;
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f_NAND(c,b,a)** | **f_NOR(c,b,a)** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |  |  |
-| 0 | 0 | 1 |  |  |  |
-| 0 | 1 | 0 |  |  |  |
-| 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+| 0 | 0 | 0 | 1 | 1 |1  |
+| 0 | 0 | 1 |  0| 0 | 0 |
+| 0 | 1 | 0 | 0 |0  |0  |
+| 0 | 1 | 1 |  0| 0 |0  |
+| 1 | 0 | 0 | 1 | 1 |1  |
+| 1 | 0 | 1 |  1|1  | 1 |
+| 1 | 1 | 0 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 1 | 1 | 1 |
 
 ### Distributive laws
 
