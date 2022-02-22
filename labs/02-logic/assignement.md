@@ -20,7 +20,7 @@
 
 1. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with at least one assert (use BCD codes of your student ID digits as input combinations). Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
-   My student ID: **xxxxxx**
+   My student ID: **245268**
 
 ```vhdl
     p_stimulus : process
@@ -29,15 +29,14 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT";
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";
-        wait for 100 ns;
+        s_b <= "0110"; s_a <= "1000"; wait for 100 ns;
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
         -- If false, then report an error
-        report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
+        report "Input combination 1000, 0110 FAILED" severity error;
+		
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
