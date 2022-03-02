@@ -47,7 +47,7 @@ end process p_stimulus;
    ![your figure](Wave.PNG)
    
    
-   ##My vivado tutorial :
+   ## My vivado tutorial :
    1. Create project
    2. Click next
    3. Select project type as RTL Project
