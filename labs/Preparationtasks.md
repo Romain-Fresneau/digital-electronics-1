@@ -38,14 +38,14 @@
 
     | **Cin** | **B** | **A** | **Cout** | **Sum** |
     | :-: | :-: | :-: | :-: | :-: |
-|0|0|0|0|0|
-|0|0|1|0|1|
-|0|1|0|0|1|
-|0|1|1|1|0|
-|1|0|0|0|1|
-|1|0|1|1|0|
-|1|1|0|1|0|
-|1|1|1|1|1|
+    |0|0|0|0|0|
+    |0|0|1|0|1|
+    |0|1|0|0|1|
+    |0|1|1|1|0|
+    |1|0|0|0|1|
+    |1|0|1|1|0|
+    |1|1|0|1|0|
+    |1|1|1|1|1|
 
 3. Find the relationship between half adder and full adder logic diagrams.
 They are related so that the full adder is actually 2 halves and the OR gate at their output C.
