@@ -45,3 +45,15 @@ end process p_stimulus;
    ![your figure](Value.PNG)
    
    ![your figure](Wave.PNG)
+   
+   
+   ##My vivado tutorial :
+   1. Create project
+   2. Click next
+   3. Select project type as RTL Project
+   4. Add sources
+   5. Create constraint files
+   6. File -> Add Sources
+   7. Select testbench, create file and must be named as tb_nameofproject
+   8. Run simulation
+   
