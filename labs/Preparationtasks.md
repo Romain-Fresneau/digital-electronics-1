@@ -71,3 +71,32 @@ They are related so that the full adder is actually 2 halves and the OR gate at 
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+
+## Lab 4 :
+![Equations](equations.png)
+
+| **D** | **Qn** | **Q(n+1)** | **Comments** |
+| :-: | :-: | :-: | :-- |
+| 0 | 0 | 0 | no change |
+| 0 | 1 | 0 | change |
+| 1 | 1 | 1 | no change |
+| 1 | 0 | 1 | change |
+
+| **J** | **K** | **Qn** | **Q(n+1)** | **Comments** |
+| :-: | :-: | :-: | :-: | :-- |
+| 0 | 0 | 0 | 0 | no change |
+| 0 | 0 | 1 | 1 | no change |
+| 0 | 1 | 0 | 0 | reset |
+| 0 | 1 | 1 | 0 | reset |
+| 1 | 0 | 0 | 1 | set |
+| 1 | 0 | 1 | 1 | set |
+| 1 | 1 | 0 | 1 | toggle |
+| 1 | 1 | 1 | 0 | toggle |
+
+| **T** | **Qn** | **Q(n+1)** | **Comments** |
+| :-: | :-: | :-: | :-- |
+| 0 | 0 | 0 | no change |
+| 0 | 1 | 1 | no change |
+| 1 | 0 | 1 | toggle invert |
+| 1 | 1 | 0 | toggle invert |
