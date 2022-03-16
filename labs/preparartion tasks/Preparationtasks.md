@@ -101,7 +101,7 @@ They are related so that the full adder is actually 2 halves and the OR gate at 
 | 1 | 0 | 1 | toggle invert |
 | 1 | 1 | 0 | toggle invert |
 
-##Lab 5 :
+## Lab 5 :
 
 | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
 | :-: | :-: | :-: | :-: |
