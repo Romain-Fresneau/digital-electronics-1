@@ -41,4 +41,4 @@ end Behavioral;
 
 1. Image of the shift register top
 
-   ![your figure](images/top.PNG)
+   ![your figure](images/top.png)
