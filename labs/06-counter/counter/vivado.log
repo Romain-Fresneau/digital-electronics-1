@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 17 11:48:32 2022
+# Process ID: 4464
+# Current directory: C:/Users/newDefaultTest/Desktop/digital-electronics-1/labs/06-counter/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9388 C:\Users\newDefaultTest\Desktop\digital-electronics-1\labs\06-counter\counter\counter.xpr
+# Log file: C:/Users/newDefaultTest/Desktop/digital-electronics-1/labs/06-counter/counter/vivado.log
+# Journal file: C:/Users/newDefaultTest/Desktop/digital-electronics-1/labs/06-counter/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/newDefaultTest/Desktop/digital-electronics-1/labs/06-counter/counter/counter.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/APPZ/Xilinx/Vivado/2020.1/data/ip'.
