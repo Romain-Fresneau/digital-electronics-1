@@ -113,4 +113,4 @@ They are related so that the full adder is actually 2 halves and the OR gate at 
 | 1sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
 
 ## Lab 7 :
-!.[Réponse].(rep.jpg)
+![Réponse](rep.jpg)
