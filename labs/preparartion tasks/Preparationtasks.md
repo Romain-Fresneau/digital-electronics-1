@@ -126,7 +126,7 @@ They are related so that the full adder is actually 2 halves and the OR gate at 
 
 ### Figure with connection of RGB LEDs on Nexys A7 board
 
-![figure](Images/figure_LEDs.png)
+![figure](123.jpg)
 
 ### Completed table with color settings
 
@@ -135,8 +135,6 @@ They are related so that the full adder is actually 2 halves and the OR gate at 
 | LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
 | LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
 
-## Traffic light controller
 
-### State diagram
 
-![diagram_tlc](Images/state_diagram_tlc.png)
+
