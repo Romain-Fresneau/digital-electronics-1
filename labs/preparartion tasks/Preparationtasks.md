@@ -114,3 +114,29 @@ They are related so that the full adder is actually 2 halves and the OR gate at 
 
 ## Lab 7 :
 ![Réponse](rep.jpg)
+
+## Lab 8:
+
+### Completed state table
+
+| **Input P** | `0` | `0` | `1` | `1` | `0` | `1` | `0` | `1` | `1` | `1` | `1` | `0` | `0` | `1` | `1` | `1` |
+| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **State** | A | A | B | C | C | D | A | B | C | D | D | A | A | B | C | D |
+| **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `1` | `0` | `0` | `0` | `0` | `1` |
+
+### Figure with connection of RGB LEDs on Nexys A7 board
+
+![figure](Images/figure_LEDs.png)
+
+### Completed table with color settings
+
+| **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
+| :-: | :-: | :-: | :-: | :-: |
+| LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
+| LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
+
+## Traffic light controller
+
+### State diagram
+
+![diagram_tlc](Images/state_diagram_tlc.png)
