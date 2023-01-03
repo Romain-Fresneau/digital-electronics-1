@@ -20,25 +20,25 @@ Premierement nous devons simuler nos systemes sur EDA playground avant d utilise
   * - $ git tag v0.1 (par exemple)
 
 * Pour vérifier la version locale et les changements par rapport à la version commmit nous utilisons :
- git diff
- <br>
+ * - $ git diff
+
 * Revenir à la version marquée avec le tag v0.1. nous utilisons:
  * - $ git checkout v0.1
- <br>
+
 * Pour revnir au dernier commit :
 * - $ git master
-<br>
+
 * Pour voir tous mes tags je fais :
  * - $ git tag
- <br>
+
 * Consulter graphiquement le dépôt : « git gui » :
  * - $ git gui
- <br>
+
  * Pour créer une nouvelle branche, tapez la commande qui suit.
 * - $ git branch nouvelle
- <br>
+
  * Vérifions que la branche a bien été créée.
 
 * - $ git branch
- <br>
+
 Nous constatons que notre branche nouvelle a bien été créée par contre, comme nous l’indique le *, nous sommes toujours dans la branche master.
