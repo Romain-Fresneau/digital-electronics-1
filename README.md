@@ -26,7 +26,7 @@ Premierement nous devons simuler nos systemes sur EDA playground avant d utilise
  * - $ git checkout v0.1
 
 * Pour revnir au dernier commit :
-* - $ git master
+ - $ git master
 
 * Pour voir tous mes tags je fais :
  * - $ git tag
