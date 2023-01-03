@@ -17,15 +17,15 @@ Pour afficher l’historique des modifications nous pouvons utiliser la commande
      -  git log
 
 Cette version correspond à un livrable du code, pour donner un tag à la derniere version nous pouvons utiliser la fonction :
- -  git tag v0.1 (par exemple)
+  git tag v0.1 (par exemple)
 
 Pour vérifier la version locale et les changements par rapport à la version commmit nous utilisons :
--  git diff
+ git diff
 Revenir à la version marquée avec le tag v0.1. nous utilisons
--  git checkout v0.1
+ git checkout v0.1
 Pour revnir au dernier commit :
--  git master
+git master
 Pour voir tous mes tags je fais :
--  git tag
+ git tag
 Consulter graphiquement le dépôt : « git gui » :
--  git gui
+ git gui
