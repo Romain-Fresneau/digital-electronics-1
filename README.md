@@ -14,31 +14,31 @@ J'ai crée mon environnement Github afin de stocker mes sessions de labs; Les de
 Premierement nous devons simuler nos systemes sur EDA playground avant d utiliser le hardware, Le deuxieme exercice que nous faisons est d'utiliser la fonction de De Morgan afin de simuler.
 
 * Pour afficher l’historique des modifications nous pouvons utiliser la commande 
-     -  git log
+   * - $ git log
 
 * Cette version correspond à un livrable du code, pour donner un tag à la derniere version nous pouvons utiliser la fonction :
-  git tag v0.1 (par exemple)
+  * - $ git tag v0.1 (par exemple)
 
 * Pour vérifier la version locale et les changements par rapport à la version commmit nous utilisons :
  git diff
  <br>
 * Revenir à la version marquée avec le tag v0.1. nous utilisons:
- git checkout v0.1
+ * - $ git checkout v0.1
  <br>
 * Pour revnir au dernier commit :
-git master
+* - $ git master
 <br>
 * Pour voir tous mes tags je fais :
- git tag
+ * - $ git tag
  <br>
 * Consulter graphiquement le dépôt : « git gui » :
- git gui
+ * - $ git gui
  <br>
  * Pour créer une nouvelle branche, tapez la commande qui suit.
-git branch nouvelle
+* - $ git branch nouvelle
  <br>
  * Vérifions que la branche a bien été créée.
 
-git branch
+* - $ git branch
  <br>
 Nous constatons que notre branche nouvelle a bien été créée par contre, comme nous l’indique le *, nous sommes toujours dans la branche master.
