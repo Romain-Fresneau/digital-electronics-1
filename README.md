@@ -14,7 +14,7 @@ J'ai crée mon environnement Github afin de stocker mes sessions de labs; Les de
 Premierement nous devons simuler nos systemes sur EDA playground avant d utiliser le hardware, Le deuxieme exercice que nous faisons est d'utiliser la fonction de De Morgan afin de simuler.
 
 Pour afficher l’historique des modifications nous pouvons utiliser la commande 
-* - $ git log
+    * - $ git log
 
 Cette version correspond à un livrable du code, pour donner un tag à la derniere version nous pouvons utiliser la fonction :
  - $ git tag v0.1 (par exemple)
