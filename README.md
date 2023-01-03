@@ -34,3 +34,11 @@ Pour voir tous mes tags je fais :
 Consulter graphiquement le dépôt : « git gui » :
  git gui
  <br>
+ Pour créer une nouvelle branche, tapez la commande qui suit.
+git branch nouvelle
+ <br>
+ Vérifions que la branche a bien été créée.
+
+git branch
+ <br>
+Nous constatons que notre branche nouvelle a bien été créée par contre, comme nous l’indique le *, nous sommes toujours dans la branche master.
