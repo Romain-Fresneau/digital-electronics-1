@@ -21,11 +21,16 @@ Cette version correspond à un livrable du code, pour donner un tag à la dernie
 
 Pour vérifier la version locale et les changements par rapport à la version commmit nous utilisons :
  git diff
-Revenir à la version marquée avec le tag v0.1. nous utilisons
+ <br>
+Revenir à la version marquée avec le tag v0.1. nous utilisons:
  git checkout v0.1
+ <br>
 Pour revnir au dernier commit :
 git master
+<br>
 Pour voir tous mes tags je fais :
  git tag
+ <br>
 Consulter graphiquement le dépôt : « git gui » :
  git gui
+ <br>
